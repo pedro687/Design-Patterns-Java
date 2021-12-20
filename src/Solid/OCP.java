@@ -99,6 +99,7 @@ class ProductFilter {
     public Stream<Product> filterProductsBySizeAndColor(List<Product> products, Color color, Size size) {
         return products.stream().filter(product -> product.getColor() == color && product.getSize() == size);
     }
+
 }
 
 class Product {

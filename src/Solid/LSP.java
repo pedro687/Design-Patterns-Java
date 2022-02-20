@@ -53,7 +53,7 @@ class RectangleFactory{
     }
 
     public static Rectangle newSquare(int side){
-        return newRectangle(side, side);
+        return new Rectangle(side, side);
     }
 }
 
